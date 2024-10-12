@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(242, 236, 247);
+    font-family: "Arial",sans-serif
+}
+
+img {
+    height: 400px;
+    width: auto;
+}
+
+h4 {
+    font-family: "Courier New",monospaced;
+    font-weight: bold;
+}
