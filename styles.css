@@ -1,14 +1,69 @@
+@font-face {
+    font-family: "Calamity Sans";
+    src: url('fonts/Calamity-Regular.otf')
+}
+
+@font-face {
+    font-family: "Calamity Sans Bold";
+    src: url('fonts/Calamity-Bold.otf')
+}
+
 body {
-    background-color: rgb(242, 236, 247);
-    font-family: "Arial",sans-serif
+    background: url('https://i.imgur.com/g4lRlrs.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Calamity Sans",sans-serif;
 }
 
 img {
-    height: 400px;
+    height: 300px;
     width: auto;
+    display: inline;
+    float: right;
+    margin: 30px;
+}
+
+.header {
+    background-color: hsla(0, 0%, 0%, 0.533);
+    color: white;
+    font-size: 13px;
+    margin: 0px 0px 50px;
+    border: 0px;
+    padding: 13px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto 100px;
+}
+
+.recipe-button {
+    background-color: hsla(0, 0%, 0%, 0.533);
+    color: white;
+    padding: 13px 50px;
+    flex: auto;
+    margin: 20px;
+}
+
+/* RECIPE PAGES */
+
+h1 {
+    font-family: "Calamity Sans Bold";
+    text-align: center;
 }
 
 h4 {
-    font-family: "Courier New",monospaced;
+    font-family: "Calamity Sans Bold",monospaced;
     font-weight: bold;
+}
+
+.recipe-container {
+    background-color: hsla(0, 0%, 0%, 0.533);
+    color: white;
+    padding: 50px;
+    margin: 30px 100px;
 }
